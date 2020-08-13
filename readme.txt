@@ -1,0 +1,1 @@
+A simple website for a fictional arts and crafts store to be a part of my web development portofolio.
