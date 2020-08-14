@@ -8,6 +8,11 @@ h1{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body{
+    margin: 0px;
+}
+
+
 nav ul {
     padding: 0px;
     margin: 0px;
@@ -16,7 +21,25 @@ nav ul {
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    width: 100%;
+    
+    
   }
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  main{
+      padding: 16;
+  }
+
+  .sticky + main {
+    padding-top: 60px;
+  }
+  
+  
   
   nav li {
     float: left;
